@@ -1,35 +1,19 @@
-#include "aStarAlgorithm/astar.h"
-#include "blockallocator/blockallocator.h"
+#include "aStarAlgorithm/AStar.h"
+#include "aStarAlgorithm/Node.h"
+#include "aStarAlgorithm/ReParam.h"
+
 int main()
 {
-	char maps[10][10] =
+	InitIfoma();
+	//  // 起点 // 终点
+	int x0 = 5, y0 = 4, x1 = 8, y1 = 6;
+	if (!isValidNode(x0, y0, x0, y0))
 	{
-		{ 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 },
-		{ 0, 0, 0, 1, 0, 1, 0, 1, 0, 1 },
-		{ 1, 1, 1, 1, 0, 1, 0, 1, 0, 1 },
-		{ 0, 0, 0, 1, 0, 0, 0, 1, 0, 1 },
-		{ 0, 1, 0, 1, 1, 1, 1, 1, 0, 1 },
-		{ 0, 1, 0, 0, 0, 0, 0, 0, 0, 1 },
-		{ 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		{ 0, 0, 0, 0, 1, 0, 0, 0, 1, 0 },
-		{ 1, 1, 0, 0, 1, 0, 1, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 1, 0, 1, 0 },
-	};
-
-	// 搜索参数
-	AStar::Params param;
-	param.width = 10;
-	param.height = 10;
-	param.corner = false;
-	param.start = AStar::Vec2(0, 0);
-	param.end = AStar::Vec2(9, 9);
-	param.can_pass = [&](const AStar::Vec2& pos)->bool
-		{
-			return maps[pos.y][pos.x] == 0;
-		};
-
-	// 执行搜索
-	BlockAllocator allocator;
-	AStar algorithm(&allocator);
-	auto path = algorithm.find(param);
+		printf("Invalid input.\n");
+		return 0;
+	}
+	AStar* aStar = new AStar(x0, y0, x1, y1);
+	aStar->Astar();
+	PrintPath(x1, y1);
+	return 0;
 }

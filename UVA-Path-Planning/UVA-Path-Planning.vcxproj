@@ -127,13 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="aStarAlgorithm\astar.cpp" />
-    <ClCompile Include="blockallocator\blockallocator.cpp" />
+    <ClCompile Include="aStarAlgorithm\AStar.cpp" />
+    <ClCompile Include="aStarAlgorithm\ReParam.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aStarAlgorithm\astar.h" />
-    <ClInclude Include="blockallocator\blockallocator.h" />
+    <ClInclude Include="aStarAlgorithm\AStar.h" />
+    <ClInclude Include="aStarAlgorithm\Node.h" />
+    <ClInclude Include="aStarAlgorithm\ReParam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

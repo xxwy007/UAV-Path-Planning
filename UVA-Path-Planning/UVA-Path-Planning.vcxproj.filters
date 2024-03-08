@@ -18,18 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="aStarAlgorithm\astar.cpp">
+    <ClCompile Include="aStarAlgorithm\AStar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="blockallocator\blockallocator.cpp">
+    <ClCompile Include="aStarAlgorithm\ReParam.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aStarAlgorithm\astar.h">
+    <ClInclude Include="aStarAlgorithm\AStar.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="blockallocator\blockallocator.h">
+    <ClInclude Include="aStarAlgorithm\Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarAlgorithm\ReParam.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
