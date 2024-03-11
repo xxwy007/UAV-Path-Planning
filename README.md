@@ -20,7 +20,7 @@
 
   具体：如图
 
-- ![1B38792A98592257897E37B36F2297B4](D:\桌面\UAV-Path-Planning\1B38792A98592257897E37B36F2297B4.png)
+- ![1B38792A98592257897E37B36F2297B4](1B38792A98592257897E37B36F2297B4.png)
 
 - dao：持久层
 
@@ -30,7 +30,7 @@
 
 - 如图
 
-  ![d5aa5aa59213d3befc8fba6a0b34a5d1](D:\桌面\UAV-Path-Planning\d5aa5aa59213d3befc8fba6a0b34a5d1.png)
+  ![d5aa5aa59213d3befc8fba6a0b34a5d1](d5aa5aa59213d3befc8fba6a0b34a5d1.png)
 
 ##  目录结构说明
 
