@@ -127,14 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="aStarAlgorithm\AStar.cpp" />
-    <ClCompile Include="aStarAlgorithm\ReParam.cpp" />
+    <ClCompile Include="service\aStarAlgorithm\AStar.cpp" />
+    <ClCompile Include="dao\ReParam\ReParam.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="view\view.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aStarAlgorithm\AStar.h" />
-    <ClInclude Include="aStarAlgorithm\Node.h" />
-    <ClInclude Include="aStarAlgorithm\ReParam.h" />
+    <ClInclude Include="service\aStarAlgorithm\AStar.h" />
+    <ClInclude Include="service\aStarAlgorithm\Node.h" />
+    <ClInclude Include="dao\ReParam\ReParam.h" />
+    <ClInclude Include="view\view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

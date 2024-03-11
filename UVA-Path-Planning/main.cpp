@@ -1,6 +1,7 @@
-#include "aStarAlgorithm/AStar.h"
-#include "aStarAlgorithm/Node.h"
-#include "aStarAlgorithm/ReParam.h"
+#include "service/aStarAlgorithm/AStar.h"
+#include "service/aStarAlgorithm/Node.h"
+#include "dao/ReParam/ReParam.h"
+#include "view/view.h"
 
 int main()
 {

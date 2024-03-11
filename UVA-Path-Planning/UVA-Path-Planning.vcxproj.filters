@@ -18,21 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="aStarAlgorithm\AStar.cpp">
+    <ClCompile Include="service\aStarAlgorithm\AStar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="aStarAlgorithm\ReParam.cpp">
+    <ClCompile Include="dao\ReParam\ReParam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="view\view.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aStarAlgorithm\AStar.h">
+    <ClInclude Include="service\aStarAlgorithm\AStar.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="aStarAlgorithm\Node.h">
+    <ClInclude Include="service\aStarAlgorithm\Node.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="aStarAlgorithm\ReParam.h">
+    <ClInclude Include="dao\ReParam\ReParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="view\view.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

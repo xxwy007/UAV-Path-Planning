@@ -10,13 +10,40 @@
 
 ​	本项目采用的A star算法，A star算法最早可追溯到1968年，在IEEE Transactions on Systems Science and Cybernetics中的论文A Formal Basis for the Heuristic Determination of Minimum Cost Paths中首次提出。A*算法是把启发式方法（heuristic approaches）如BFS（完全使用贪心策略），和常规方法如Dijsktra算法结合在一起的算法。有点不同的是，类似BFS的启发式方法经常给出一个近似解而不是保证最佳解。然而，尽管A star基于无法保证最佳解的启发式方法，A star却能保证找到一条最短路径。
 
+## 项目架构说明
+
+- **表示层**：主要对用户的请求接受，以及数据的返回，为客户端提供应用程序的访问。
+
+- **业务逻辑层**：主要负责对数据层的操作。也就是说把一些数据层的操作进行组合。
+
+- **数据访问层**：主要看数据层里面有没有包含逻辑处理，实际上它的各个函数主要完成各个对数据文件的操作。而不必管其他操作。
+
+  具体：如图
+
+- ![1B38792A98592257897E37B36F2297B4](D:\桌面\UAV-Path-Planning\1B38792A98592257897E37B36F2297B4.png)
+
+- dao：持久层
+
+- service：业务层
+
+- view：表现层
+
+- 如图
+
+  ![d5aa5aa59213d3befc8fba6a0b34a5d1](D:\桌面\UAV-Path-Planning\d5aa5aa59213d3befc8fba6a0b34a5d1.png)
+
 ##  目录结构说明
 
 UVA-Path-Planning
 
 `README.md` -- 自述文件
 
-`aStarAlgorithm` -- `aStar`算法主体
+- dao：持久层
+  - map：地图
+  - ReParam：必要参数
+- service：业务层
+  - aStarAlgorithm：a-star算法
+- view：表现层
 
 ## 开发工具
 
