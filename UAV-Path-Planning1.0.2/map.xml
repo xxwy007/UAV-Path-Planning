@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+	<map id="1" name="地图1">
+		<array>0000000000</array>
+		<array>0100000100</array>
+		<array>0011000100</array>
+		<array>0001000100</array>
+		<array>0000001000</array>
+		<array>0011010000</array>
+		<array>0010101000</array>
+		<array>0010000100</array>
+		<array>0101000000</array>
+		<array>00000100</array>
+	</map>
+	<map id="2" name="地图2">
+		<array>0010000000</array>
+		<array>0110000100</array>
+		<array>0011001100</array>
+		<array>0001000100</array>
+		<array>0000000000</array>
+		<array>0011011000</array>
+		<array>0010101000</array>
+		<array>0010000100</array>
+		<array>0101001000</array>
+		<array>0011000000</array>
+	</map>
+</DATA>

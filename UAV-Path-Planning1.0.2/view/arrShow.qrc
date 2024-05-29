@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/arrShow">
+        <file>back.png</file>
+        <file>back2.png</file>
+        <file>mountain.png</file>
+        <file>mountain2.png</file>
+        <file>mountain3.png</file>
+        <file>uav.png</file>
+        <file>uav2.png</file>
+    </qresource>
+</RCC>
